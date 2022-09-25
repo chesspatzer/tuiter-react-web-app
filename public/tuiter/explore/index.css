@@ -1,0 +1,63 @@
+/*body{*/
+/*    background-color: black;*/
+/*    padding-left: 60px;*/
+/*    color: white;*/
+/*}*/
+
+/* !*search form *!*/
+/*#wrap{*/
+/*    text-align:left;*/
+/*    align-items: stretch;*/
+/*}*/
+/*#wd-search {*/
+/*    margin: 0 auto;*/
+/*    position: relative;*/
+/*    width: 502px;*/
+/*}*/
+
+/*#wd-search .box{*/
+/*    font-family: "Helvetica Neue", Arial, sans-serif;*/
+/*    font-size: 13px;*/
+/*    line-height: 20px;*/
+/*    display: block;*/
+/*    width: 500px;*/
+/*    height: 14px;*/
+/*    padding: 6px 27px 6px 12px;*/
+/*    cursor: pointer;*/
+/*    color: #202327;*/
+/*    background-color: #202327;*/
+/*    border: none;*/
+/*    border-radius: 13px 13px 13px 13px;*/
+/*    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2) inset;*/
+/*}*/
+
+/*#wd-search .icon {*/
+/*    position: absolute;*/
+/*    !*display: block;*!*/
+/*    top: 4px;*/
+/*    right: 4px;*/
+/*    width: 14px;*/
+/*    height: 15px;*/
+/*    background-image: url("search-icon.png");*/
+/*    background-size: 15px;*/
+/*    background-color: transparent;*/
+/*    border: none;*/
+/*    !*text-indent: -900px;*!*/
+/*    padding: 0;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.wd-bg-frame {*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
+
+.grid-row {
+    clear: both;
+}
+
+.grid-col-one-sixth-page {
+    width: 14.25%;
+    float: left;
+}
+
