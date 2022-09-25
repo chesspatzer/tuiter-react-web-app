@@ -52,12 +52,93 @@
 /*    color: white;*/
 /*}*/
 
-.grid-row {
-    clear: both;
+body {
+    background-color: #020203;
+    color: white;
+}
+.tuit-tab {
+    padding: 2px;
 }
 
-.grid-col-one-sixth-page {
-    width: 14.25%;
-    float: left;
+.tuits {
+    margin-top : -30px;
 }
+
+.tuit-border {
+    border-style: solid;
+    border-width: thin;
+    padding: 5px;
+    color: rgb(47, 51, 54);
+}
+
+.tuit-trend-status {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    font-family: Helvetica, sans-serif;
+    margin-left: 16px;
+}
+
+.tuit-account {
+    color: white;
+    margin-top: -10px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 16px;
+}
+
+
+
+.tuit-tab-highlight {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 16px;
+    color: rgb(29,161,242);
+}
+
+
+
+.tuit-tab-not-highlight{
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 16px;
+    color: rgb(110, 118, 125);
+
+}
+
+.tuit-tab-not-highlight:hover {
+    color: rgb(29,161,242);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box div {
+    width: 100%;
+    height: 100px;
+}
+
+.box-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ele1 {
+    width: 95%;
+}
+
+.ele2{
+    flex-grow: 1;
+}
+
+.rounded-corner {
+    border-radius: 15px;
+}
+
+
 
