@@ -4,37 +4,9 @@ body {
     margin-left: 16px
 }
 
-.search {
-    border-style: none;
-    border-width: thin;
-    border-radius: 15px;
-    padding-left: 25px;
-    margin-top: -5px;
-    width: 80%;
-    height: 25px;
-    background-color: #202329;
-}
-
-.highlight-tab {
-    margin-top: -60px;
-    font-size: 70px;
-}
-
-.shade {
-    background: rgb(92,97,101);
-    height: 15px;
-    margin-top: -40px;
-}
-
-.tuit-tab {
-    padding: 2px;
-}
-
-.tuits {
-    margin-top: -30px;
-}
 
 .wd-tuit-border {
+    width: 700px;
     border-style: solid;
     border-width: thin;
     padding: 5px;
@@ -49,7 +21,13 @@ body {
     margin-left: 16px;
 }
 
-.tuit-link-text {
+.wd-tuit-status {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    font-family: Helvetica, sans-serif;
+}
+
+.wd-tuit-link-text {
     margin-top: -20px;
     padding: 12px;
     font-size: 13px;
@@ -57,7 +35,7 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-.tuit-link-title-text {
+.wd-tuit-link-title-text {
     color: white;
     padding:12px;
     font-size: 15px;
@@ -151,7 +129,17 @@ body {
     flex-grow: 1;
 }
 
-.icon-spec {
+.wd-rele3 {
+    width: 30%;
+}
+
+.wd-rele4 {
+    margin-left: -50px;
+    margin-top: 15px;
+    flex-grow: 1;
+}
+
+.wd-icon-spec {
     padding: 5px;
     margin-left: 40px;
     margin-top: -10px;
@@ -164,19 +152,28 @@ body {
 
 }
 
-.icon-text {
+.wd-icon-text {
     margin-top: -10px;
     padding: 12px;
 }
 
+.wd-icon-color {
+    color: red;
+}
 
-.rounded-corner {
+
+.wd-tuit-content-margin {
+    margin-left: 54px;
+}
+
+
+.wd-rounded-corner {
     margin-top: 12px;
     margin-left: 16px;
     border-radius: 50%;
 }
 
-.tuit-border-img {
+.wd-tuit-border-img {
     margin-left: 16px;
     border-top-left-radius: 20px;
     border-top-right-radius:20px;
@@ -185,5 +182,17 @@ body {
     color: rgb(47, 51, 54);
 }
 
+.wd-tuit-link-border {
+    margin-left:16px;
+    width: 504px;
+    border-style: solid;
+    border-width:thin;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -5px
+}
 
-
+.wd-icon-pads{
+    width:506px;
+    padding-top: 10px
+}

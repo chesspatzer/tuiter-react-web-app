@@ -4,7 +4,7 @@ body {
     margin-left: 16px
 }
 
-.search {
+.wd-search {
     border-style: none;
     border-width: thin;
     border-radius: 15px;
@@ -15,22 +15,22 @@ body {
     background-color: #202329;
 }
 
-.highlight-tab {
+.wd-highlight-tab {
     margin-top: -60px;
     font-size: 70px;
 }
 
-.shade {
+.wd-shade {
     background: rgb(92,97,101);
     height: 15px;
     margin-top: -40px;
 }
 
-.tuit-tab {
+.wd-tuit-tab {
     padding: 2px;
 }
 
-.tuits {
+.wd-tuits {
     margin-top: -30px;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 
-.tuit-tab-highlight {
+.wd-tuit-tab-highlight {
     font-family: Helvetica, sans-serif;
     font-size: 15px;
     padding: 16px;
@@ -64,7 +64,7 @@ body {
 }
 
 
-.tuit-tab-not-highlight {
+.wd-tuit-tab-not-highlight {
     font-family: Helvetica, sans-serif;
     font-size: 15px;
     padding: 16px;
@@ -72,39 +72,39 @@ body {
 
 }
 
-.tuit-tab-not-highlight:hover {
+.wd-tuit-tab-not-highlight:hover {
     color: rgb(29, 161, 242);
     background-color: transparent;
     text-decoration: underline;
 }
 
-.box {
+.wd-box {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.box div {
+.wd-box div {
     width: 100%;
     height: 100px;
 }
 
-.box-container {
+.wd-box-container {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.ele1 {
+.wd-ele1 {
     width: 95%;
 }
 
-.ele2 {
+.wd-ele2 {
     flex-grow: 1;
 }
 
-.rounded-corner {
+.wd-rounded-corner {
     border-radius: 15px;
 }
 
