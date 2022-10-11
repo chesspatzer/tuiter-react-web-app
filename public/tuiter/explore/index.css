@@ -21,6 +21,12 @@ body {
     background-color: rgb(47, 51, 54);
 }
 
+.wd-fa{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightgray;
+}
+
 .wd-follow-heading {
     font-size: 14pt;
     font-weight: bolder;
