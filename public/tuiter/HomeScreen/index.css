@@ -1,0 +1,16 @@
+.wd-tweet-home-border{
+    border-radius: 20px;
+    border: 1px solid rgb(47,51,54);
+}
+
+
+.wd-tweet-image-with-content {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.wd-tweet-image-without-content {
+    border-radius: 20px;
+    object-fit: cover;
+}
