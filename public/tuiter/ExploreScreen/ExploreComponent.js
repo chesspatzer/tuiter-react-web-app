@@ -2,7 +2,7 @@
 import PostSummaryList from "../PostSummaryList/index.js";
 const ExploreComponent = () => {
     return(`
-            <div class="row" style="margin-bottom: 5px">
+            <div class="row" style="margin-bottom: 8px">
                        <!-- search field and cog -->
                 <div class="position-relative">
                     <div class="row">
@@ -11,7 +11,7 @@ const ExploreComponent = () => {
                                    placeholder="Search Tuiter"/>
                         </div>
                         <div class="col-1 p-2">
-                            <i class="fas fa-cog fa-lg fa-inverse wd-settings"></i>
+                            <i class="fas fa-cog fa-lg fa-gear wd-settings"></i>
                         </div>
                     </div>
                     <span class="position-absolute wd-search-tuiter wd-search-icon">
