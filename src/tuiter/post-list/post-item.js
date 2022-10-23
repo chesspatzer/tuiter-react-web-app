@@ -53,7 +53,7 @@ const PostItem = (
                         <span><i className="fas fa-check-circle ps-1"></i></span>
                         <span className="text-secondary ps-1">@{postItem.handle} . {postItem.time}</span>
                     </div>
-                    <div className="mb-2">{postItem.post}</div>
+                    <div className="mb-2" dangerouslySetInnerHTML={{__html:postItem.post}} />
                     {tuitImage}
                     {retuitPostComponent}
                     <div className="row mt-3 mb-1">
@@ -93,7 +93,7 @@ function getRetuitPostComponent(retuitPost) {
                 <span className="fw-bolder">{retuitPost.userName}</span>
                 <span><i className="fas fa-check-circle ps-1"></i></span>
                 <span className="text-secondary ps-1">@{retuitPost.handle} . {retuitPost.time}</span>
-                <div className="mb-2">{retuitPost.post}</div>
+                <div className="mb-2" dangerouslySetInnerHTML={{__html:retuitPost.post}} />
             </div>
 
 
@@ -102,7 +102,7 @@ function getRetuitPostComponent(retuitPost) {
 
 function getThread(postItem) {
     return postItem.thread ? (<div className="mt-4 mb-2">
-        <a className='text-decoration-none' href='https://twitter.com/inspiration4x'>Show this thread </a>
+        <a className='text-decoration-none' href={postItem.thread_link}>Show this thread </a>
     </div>) : <></>
 }
 
@@ -113,7 +113,7 @@ function getRetuitTag(postItem){
                 <i className="fas fa-retweet"></i>
             </span>
             <span className="ps-2 text-secondary">
-                {postItem.userName} Retuited
+                {postItem.retuit_by} Retuited
             </span>
         </span>
 

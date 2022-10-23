@@ -16,7 +16,7 @@ const NavigationSidebar = (active) => {
                 </div>
             </div>
         </a>             
-        <a href="../explore/index.html"
+        <a href="../ExploreDirectory/index.html"
            class="list-group-item  ${validate(active, 'explore')}">
             <div class="row">
                 <div class="col-3">

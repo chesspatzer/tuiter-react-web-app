@@ -14,10 +14,8 @@ function App() {
                            element={<Labs/>}/>
                     <Route path="/hello"
                            element={<HelloWorld/>}/>
-                    <Route path="/tuiter"
+                    <Route path="/tuiter/*"
                            element={<Tuiter/>}/>
-                    <Route path="/home"
-                           element={<Home/>}/>
                 </Routes>
             </div>
         </BrowserRouter>
