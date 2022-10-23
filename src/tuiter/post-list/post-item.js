@@ -95,8 +95,6 @@ function getRetuitPostComponent(retuitPost) {
                 <span className="text-secondary ps-1">@{retuitPost.handle} . {retuitPost.time}</span>
                 <div className="mb-2" dangerouslySetInnerHTML={{__html:retuitPost.post}} />
             </div>
-
-
         </div>;
 }
 

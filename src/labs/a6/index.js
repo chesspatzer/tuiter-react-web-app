@@ -9,11 +9,11 @@ function Assignment6() {
     return(
         <div>
             <h1>Assignment 6</h1>
-            <TodoList/>
-            <TodoItem/>
             <ConditionalOutput/>
             <Styles/>
             <Classes/>
+            <TodoList/>
+            <TodoItem/>
         </div>
     )
 }
