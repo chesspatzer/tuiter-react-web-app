@@ -25,6 +25,11 @@ const PostItem = (
     },
 
 ) => {
+
+    if (postItem.retuited_at!=null) {
+        return (<></>)
+    }
+
     let thread = getThread(postItem);
 
     let tuitImage = getTuitImage(postItem)
@@ -33,22 +38,16 @@ const PostItem = (
 
     let retuitTag = getRetuitTag(postItem);
 
-
-
-
-
-
     return (
         <li className="list-group-item">
             <div className="row">
                 {retuitTag}
-
                 <div className="col-1">
-                    <div className="ms-3">
+                    <div>
                         <img width={50} className="rounded-circle" src={`/img/${postItem.avatar}`}/>
                     </div>
                 </div>
-                <div className="col-11">
+                <div className="col-11 ps-4">
                     <div>
                         <span className="fw-bolder">{postItem.userName}</span>
                         <span><i className="fas fa-check-circle ps-1"></i></span>
@@ -59,16 +58,16 @@ const PostItem = (
                     {retuitPostComponent}
                     <div className="row mt-3 mb-1">
                         <div className="col-3 text-secondary">
-                            <i className="far fa-comment me-1 ps-5"></i>{postItem.comments}
+                            <i className="far fa-comment me-1 ps-3"></i>{postItem.comments}
                         </div>
                         <div className="col-3 text-secondary">
-                            <i className="fas fa-retweet me-1 ps-5"></i>{postItem.retuits}
+                            <i className="fas fa-retweet me-1 ps-3"></i>{postItem.retuits}
                         </div>
                         <div className="col-3 text-secondary">
-                            <i className="far fa-heart me-1 ps-5"></i>{postItem.likes}
+                            <i className="far fa-heart me-1 ps-3"></i>{postItem.likes}
                         </div>
                         <div className="col-3 text-secondary">
-                            <i className="fas fa-upload me-1 ps-5"></i>
+                            <i className="fas fa-upload me-1 ps-3"></i>
                         </div>
                     </div>
                     {thread}

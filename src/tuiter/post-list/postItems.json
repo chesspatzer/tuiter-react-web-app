@@ -13,7 +13,7 @@
     "likes": "11.1K",
     "thread": true,
     "retuit_post_id": null,
-    "retuited-at": null
+    "retuited_at": null
   },
   {
     "_id": 234,
@@ -28,7 +28,7 @@
     "likes": "19.2K",
     "thread": false,
     "retuit_post_id": 345,
-    "retuited-at": null
+    "retuited_at": null
   },
   {
     "_id": 345,
@@ -39,7 +39,7 @@
     "time": "16h",
     "post": "Starlink for RVs now has over 100,000 customers! Access high-speed, low-latency internet on an as-needed basis anywhere Starlink provides active coverage -> starlink.com/rv",
     "retuit_post_id": null,
-    "retuited-at": 234
+    "retuited_at": 234
   }
 
 ]
