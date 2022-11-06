@@ -1,6 +1,7 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
 import "./index.css";
+import TuitList from "../tuits/tuit-list";
 const ExploreComponent = () => {
     return(
         <>
@@ -32,7 +33,7 @@ const ExploreComponent = () => {
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
             </div>
-            <PostSummaryList/>
+            <TuitList/>
         </>
     );
 };
