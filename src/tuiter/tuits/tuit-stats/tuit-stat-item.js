@@ -2,13 +2,13 @@ import React from "react";
 import {useDispatch} from "react-redux";
 import {likeTuit} from "../tuits-reducer";
 
-const TuitItem = ({post}) => {
+const TuitStatItem = ({post}) => {
     const dispatch = useDispatch();
     const likeToggleHandler = (id) => {
         dispatch(likeTuit(id));
     };
     return (
-            <div className="row border-0">
+            <div className="row border-0 mt-2">
                 <span className="col-3">
                     <i className="ps-4 fa-regular fa-comment"> </i>
                     <span className="ps-2">{post.replies}</span>
@@ -30,5 +30,5 @@ const TuitItem = ({post}) => {
             </div>
         );
 };
-export default TuitItem;
+export default TuitStatItem;
 
