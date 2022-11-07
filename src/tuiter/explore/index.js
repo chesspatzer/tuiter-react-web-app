@@ -33,7 +33,7 @@ const ExploreComponent = () => {
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
             </div>
-            <TuitList/>
+            <PostSummaryList/>
         </>
     );
 };
